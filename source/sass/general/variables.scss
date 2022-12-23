@@ -1,0 +1,29 @@
+:root {
+    /* -- Fonts --*/
+    --ff: 'Poppins', sans-serif;
+    --body-bg: var(--clr-dark-400);
+    // colors
+    --clr-green-400: hsla(152, 100%, 50%, 1);
+    --clr-green-300: hsla(119, 69%, 48%, 1);
+    --clr-light-400: hsla(0, 0%, 96%, 1);
+    --clr-light-300: hsla(0, 0%, 96%, 0.7);
+    --clr-blue-400: hsla(217, 83%, 36%, 1);
+    --clr-light-500: hsla(0, 0%, 53%, 1);
+    --clr-dark-400: hsla(0, 0%, 0%, 1);
+    --table-bg: hsla(240, 11%, 12%, 1);
+}
+
+$container-width: rem(1400);
+$cont-padding: clamp(rem(15), vw(20), rem(20));
+$l-media: 88.75em;
+
+.main-container {
+  padding: 0 $cont-padding;
+  max-width: calc($container-width + $cont-padding);
+  margin-inline: auto;
+  width: 100%;
+}
+
+
+
+

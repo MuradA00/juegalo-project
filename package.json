@@ -1,0 +1,64 @@
+{
+  "name": "Start",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Start project",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "gulp-csso": "4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-posthtml": "3.0.5",
+    "gulp-purgecss": "4.0.3",
+    "gulp-px-to-rem": "^1.0.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-svgstore": "7.0.1",
+    "gulp-uglify-es": "2.0.0",
+    "gulp-webp": "4.0.1",
+    "node-sass": "5.0.0",
+    "postcss": "^8.3.0",
+    "posthtml-include": "1.7.0",
+    "sass": "^1.49.9",
+    "stylelint-config-htmlacademy": "0.1.4"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp build && gulp start",
+    "watch": "gulp start"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/js/**/*.js",
+    "source/img/**/*.svg",
+    "source/sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "14"
+  },
+  "dependencies": {
+    "@gulp-sourcemaps/identity-map": "2.0.1",
+    "autoprefixer": "10.2.5",
+    "browser-sync": "^2.27.9",
+    "deep-extend": "0.6.0",
+    "del": "6.0.0",
+    "editorconfig": "^0.15.3",
+    "gulp": "4.0.2",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sourcemaps": "3.0.0",
+    "merge": "2.1.1",
+    "stylelint": "13.12.0"
+  }
+}

@@ -1,0 +1,44 @@
+@use 'sass:math';
+
+@mixin dfc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin dfcs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin psevdo {
+  position: absolute;
+  content: '';
+}
+
+@mixin bg_position {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+@mixin max-width($media) {
+  @media only screen and (max-width: $media) {
+    @content;
+  }
+}
+
+@mixin min-width($media) {
+  @media only screen and (min-width: $media) {
+    @content;
+  }
+}
+
+@function rem($pixel) {
+  @return math.div($pixel, 16) + rem;
+}
+
+@function vw($pixel) {
+  @return math.div($pixel, 16) + vw;
+}
