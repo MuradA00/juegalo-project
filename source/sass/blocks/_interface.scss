@@ -16,6 +16,7 @@
   border-radius: 10px;
   & > * {
     font-size: rem(14);
+    color: hsla(0, 0%, 100%, 0.7);
   }
   &__inner {
     padding: rem(25) rem(30);
@@ -25,6 +26,7 @@
     grid-gap: rem(30);
     align-items: center;
     margin-bottom: rem(34);
+
   }
   .control-item {
     background-color: transparent;
@@ -71,11 +73,34 @@
   &__column {
     display: grid;
     grid-gap: rem(20);
+    height: fit-content;
   }
   &__grid-name {
     color: hsla(0, 0%, 100%, 0.7);
     font-weight: 600;
     margin-bottom: rem(15);
+    text-transform: uppercase;
+  }
+  &__factor {
+    padding: rem(3) rem(10);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 8px;
+    font-size: rem(13);
+    cursor: pointer;
+  }
+  &__multiplier {
+    padding: rem(9.5) rem(15);
+    display: flex;
+    align-items: center;
+    grid-gap: rem(14);
+    flex: 0 !important;
+    outline: 1px solid hsla(0, 0%, 100%, 0.2);
+    border-radius: 10px;
+  }
+  &__price {
+    span {
+      display: block;
+    }
   }
   &__toggle {
     text-transform: uppercase;
@@ -101,10 +126,29 @@
       color: hsla(0, 0%, 100%, 0.7);
     }
   }
+  &__factor-row {
+    display: flex;
+    grid-gap: rem(10);
+    flex: 0 !important;
+  }
   &__grid-inner {
     display: flex;
     align-items: center;
     grid-gap: rem(20);
+    height: fit-content;
+    &--wager {
+      padding: rem(7) rem(15);
+      border-radius: 10px;
+      outline: 1px solid hsla(0, 0%, 100%, 0.2);
+      justify-content: space-between;
+      span {
+        font-weight: 700;
+        color: var(--clr-light-400);
+      }
+      img {
+        max-width: 1rem;
+      }
+    }
     & > * {
       flex: 1;
     }
@@ -130,3 +174,11 @@
   }
 }
 
+@include max-width(37.5em) {
+  .control {
+    &__grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

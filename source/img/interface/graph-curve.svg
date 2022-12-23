@@ -1,0 +1,61 @@
+<svg width="575" height="441" viewBox="0 0 575 441" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="440" y="222" width="15" height="53" fill="#00FF86"/>
+<line x1="447.5" y1="275" x2="447.5" y2="278" stroke="#00FF86"/>
+<rect x="460" y="195" width="15" height="27" fill="#00FF86"/>
+<line x1="467.5" y1="193" x2="467.5" y2="196" stroke="#00FF86"/>
+<rect x="520" y="143" width="15" height="35" fill="#00FF86"/>
+<line x1="527.5" y1="141" x2="527.5" y2="144" stroke="#00FF86"/>
+<rect x="420" y="268" width="15" height="7" fill="#FF709D"/>
+<line x1="427.5" y1="262" x2="427.5" y2="271" stroke="#FF709D"/>
+<rect x="300" y="294" width="15" height="7" fill="#FF709D"/>
+<line x1="307.5" y1="293" x2="307.5" y2="298" stroke="#FF709D"/>
+<rect x="280" y="291" width="15" height="6" fill="#FF709D"/>
+<line x1="287.5" y1="283" x2="287.5" y2="299" stroke="#FF709D"/>
+<rect width="15" height="4" transform="matrix(1 0 0 -1 380 261)" fill="#FF709D"/>
+<line y1="-0.5" x2="4" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 387 264)" stroke="#FF709D"/>
+<rect width="15" height="4" transform="matrix(1 0 0 -1 340 282)" fill="#00FF86"/>
+<line y1="-0.5" x2="16" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 347 289)" stroke="#00FF86"/>
+<rect width="15" height="4" transform="matrix(1 0 0 -1 120 321)" fill="#00FF86"/>
+<line y1="-0.5" x2="6" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 127 322)" stroke="#00FF86"/>
+<rect width="15" height="4" transform="matrix(1 0 0 -1 40 363)" fill="#FF709D"/>
+<line y1="-0.5" x2="21" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 47 376)" stroke="#FF709D"/>
+<rect x="400" y="264" width="15" height="2" fill="white"/>
+<line x1="407.5" y1="261" x2="407.5" y2="267" stroke="white"/>
+<rect x="560" y="117" width="15" height="21" fill="#00FF86"/>
+<line x1="567.5" y1="112" x2="567.5" y2="139" stroke="#00FF86"/>
+<rect x="360" y="257" width="15" height="21" fill="#00FF86"/>
+<line x1="367.5" y1="252" x2="367.5" y2="279" stroke="#00FF86"/>
+<rect x="320" y="287" width="15" height="13" fill="#00FF86"/>
+<line x1="327.5" y1="274" x2="327.5" y2="301" stroke="#00FF86"/>
+<rect x="220" y="238" width="15" height="13" fill="#00FF86"/>
+<line x1="227.5" y1="236" x2="227.5" y2="252" stroke="#00FF86"/>
+<rect x="80" y="336" width="15" height="11" fill="#00FF86"/>
+<line x1="87.5" y1="337" x2="87.5" y2="351" stroke="#00FF86"/>
+<rect x="540" y="132" width="15" height="11" fill="#00FF86"/>
+<line x1="547.5" y1="127" x2="547.5" y2="136" stroke="#00FF86"/>
+<rect x="60" y="351" width="15" height="7" fill="#00FF86"/>
+<line x1="67.5" y1="345" x2="67.5" y2="362" stroke="#00FF86"/>
+<rect x="480" y="168" width="15" height="27" fill="#00FF86"/>
+<line x1="487.5" y1="163" x2="487.5" y2="197" stroke="#00FF86"/>
+<rect x="260" y="264" width="15" height="27" fill="#FF709D"/>
+<line x1="267.5" y1="259" x2="267.5" y2="290" stroke="#FF709D"/>
+<rect x="20" y="339" width="15" height="27" fill="#FF709D"/>
+<line x1="27.5" y1="337" x2="27.5" y2="368" stroke="#FF709D"/>
+<rect x="200" y="253" width="15" height="27" fill="#00FF86"/>
+<line x1="207.5" y1="261" x2="207.5" y2="281" stroke="#00FF86"/>
+<rect x="100" y="319" width="15" height="22" fill="#00FF86"/>
+<line x1="107.5" y1="315" x2="107.5" y2="335" stroke="#00FF86"/>
+<rect x="160" y="265" width="15" height="27" fill="#00FF86"/>
+<line x1="167.5" y1="273" x2="167.5" y2="293" stroke="#00FF86"/>
+<rect x="140" y="292" width="15" height="27" fill="#00FF86"/>
+<line x1="147.5" y1="269" x2="147.5" y2="321" stroke="#00FF86"/>
+<rect x="240" y="244" width="15" height="20" fill="#FF709D"/>
+<line x1="247.5" y1="239" x2="247.5" y2="270" stroke="#FF709D"/>
+<rect y="315" width="15" height="14" fill="#FF709D"/>
+<line x1="7.5" y1="316" x2="7.5" y2="337" stroke="#FF709D"/>
+<rect x="180" y="269" width="15" height="11" fill="#FF709D"/>
+<line x1="187.5" y1="266" x2="187.5" y2="283" stroke="#FF709D"/>
+<rect x="500" y="178" width="15" height="11" fill="#00FF86"/>
+<line x1="507.5" y1="173" x2="507.5" y2="200" stroke="#00FF86"/>
+<line x1="167.5" y1="2.18557e-08" x2="167.5" y2="441" stroke="white" stroke-opacity="0.7"/>
+</svg>
