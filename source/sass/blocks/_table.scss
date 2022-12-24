@@ -42,8 +42,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: rem(10);
-    padding-bottom: rem(20);
-    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+    &:not(:last-child) {
+      padding-bottom: rem(20);
+      border-bottom: 1px solid hsla(0, 0%, 100%, 0.5);
+    }
   }
   &__m-row {
     &--green {
@@ -61,6 +63,7 @@
     &--bet {
       display: flex;
       align-items: center;
+      grid-gap: rem(10);
       img {
         &:nth-child(1) {
           max-width: rem(20);
@@ -247,6 +250,16 @@
   .table {
     &__m-body {
       display: block;
+      .table__heading {
+        flex-direction: column;
+        grid-gap: rem(25);
+        margin-bottom: rem(20);
+      }
+      .flex-row {
+        grid-gap: rem(12);
+        flex-wrap: wrap;
+        justify-content: center;
+      }
     }
     &__body {
       display: none;

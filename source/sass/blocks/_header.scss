@@ -10,6 +10,18 @@
     align-items: center;
     justify-content: space-between;
   }
+  &__burger {
+    display: none;
+    grid-gap: rem(6);
+    span {
+      display: block;
+      cursor: pointer;
+      border-radius: 5px;
+      width: rem(28);
+      height: rem(3);
+      background-color: var(--clr-green-400);
+    }
+  }
   &__logo {
     max-width: rem(232);
   }
@@ -57,11 +69,7 @@
   &__user-icon {
     margin-right: rem(9);
   }
-  .--user-grey-text {
-    color: hsla(0, 0%, 100%, 0.7);
-    font-weight: 600;
-    line-height: 1.5;
-  }
+
   &__balance-icon,
   .header__coin-icon {
     height: rem(17);
@@ -142,6 +150,12 @@
   }
 }
 
+.--user-grey-text {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 @include max-width($l-media) {
   .header {
     &__nav {
@@ -149,6 +163,12 @@
     }
     &__options, .header__user {
       display: none;
+    }
+    &__burger {
+      display: grid;
+    }
+    &__scope {
+      grid-gap: 1rem;
     }
   }
 }

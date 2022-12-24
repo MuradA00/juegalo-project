@@ -149,8 +149,14 @@
   }
 }
 
-@include max-width(34.375em) {
+@include max-width(35.375em) {
+
   .footer {
+    &__bottom {
+        .footer__column-heading {
+          text-align: center;
+      }
+    }
     &__row {
       grid-gap: 3.125rem 1.5rem;
     }

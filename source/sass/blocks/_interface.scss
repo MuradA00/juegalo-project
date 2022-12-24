@@ -1,5 +1,5 @@
 .interface {
-  margin-bottom: rem(35);
+  margin-bottom: rem(70);
   &__body {
     display: flex;
     grid-gap: rem(20);
@@ -7,6 +7,12 @@
   &__graph {
     flex: 1;
   }
+  &__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }
 
 .control {
@@ -19,7 +25,7 @@
     color: hsla(0, 0%, 100%, 0.7);
   }
   &__inner {
-    padding: rem(25) rem(30);
+    padding: rem(25) rem(30) rem(35) rem(30);
   }
   &__heading {
     display: flex;
@@ -38,7 +44,7 @@
     &--btn {
       display: flex;
       justify-content: center;
-
+      margin-top: rem(24);
     }
   }
   &__input {
@@ -64,6 +70,7 @@
     border-radius: 10px;
     font-weight: 700;
     flex: 1;
+    font-size: rem(14);
     &--up {
       background-color: hsla(152, 100%, 50%, 0.2);
       outline: 1px dashed var(--clr-green-400);
@@ -266,6 +273,9 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: rem(27);
   }
+  .control__inner {
+    padding: rem(30) rem(30) rem(41) rem(30);
+  }
   .control__column--auto {
     display: flex;
     flex-direction: column;
@@ -277,19 +287,80 @@
 
 
 @include max-width($l-media) {
+  .graph-active {
+    .graph__options {
+      display: flex !important;
+    }
+    .graph__column {
+      min-height: 26.25rem !important;
+    }
+  }
   .interface {
+    &__container {
+      max-width: 50rem;
+      margin-inline: auto;
+    }
     &__body {
+      grid-gap: rem(60);
       display: flex;
       flex-direction: column;
     }
   }
+  .graph {
+    &__column {
+      display: flex !important;
+    }
+    &__numbers-row {
+      width: 100% !important;
+      grid-gap: 0 !important;
+      justify-content: space-between;
+    }
+    &__curve {
+      flex: 1;
+    }
+  }
   .control {
-    max-width: 50rem;
-    margin-inline: auto;
+    max-width: 100%;
+  }
+}
+
+@include max-width(51.875em) {
+  .graph {
+    &__point-total {
+      font-size: rem(12) !important;
+      &::before {
+        height: 0.8rem !important;
+        width: 0.8rem !important;
+        left: -5px !important;
+      }
+    }
+    &__heading {
+      flex-direction: column;
+      grid-gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center !important;
+    }
+    &__current {
+      font-size: rem(14) !important;
+    }
+    &__dropdown {
+      flex: 1 1 100%;
+      justify-content: center;
+    }
+    &__heading-inner {
+      grid-gap: 1rem !important;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 }
 
 @include max-width(40.625em) {
+  .graph {
+    &__total, .graph__right-items {
+      font-size: rem(10);
+    }
+  }
   .control {
     &__grid {
       display: flex

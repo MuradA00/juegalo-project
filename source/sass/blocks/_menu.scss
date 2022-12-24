@@ -1,0 +1,69 @@
+.menu {
+  background-color: var(--table-bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20000;
+  transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  transition: 350ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  &__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    img {
+      width: rem(22);
+    }
+  }
+  &__inner {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  &__container {
+    max-width: rem(500);
+    margin-inline: auto;
+    padding: 3rem .8rem;
+    height: 100%;
+    display: grid;
+    align-items: center;
+  }
+  .header__coins-bottom {
+    font-size: rem(11);
+    font-weight: 700;
+  }
+
+  .header__user {
+    max-width: rem(300);
+    margin-inline: auto;
+    justify-content: center;
+    padding-bottom: rem(16);
+    border-bottom: 2px solid var(--clr-light-400);
+  }
+  .--top-row {
+    display: flex;
+    grid-gap: rem(5);
+  }
+}
+
+.mob-nav {
+  &__list {
+    flex-direction: column;
+  }
+  &__link {
+    font-size: 1.5rem;
+    &::before {
+      content: none;
+    }
+  }
+}
+
+.show-menu {
+  opacity: 1;
+  user-select: auto;
+  visibility: visible;
+  transform: scale(1);
+}

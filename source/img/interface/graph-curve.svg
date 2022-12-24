@@ -1,10 +1,20 @@
-<svg width="575" height="441" viewBox="0 0 575 441" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="930" height="441" viewBox="0 0 930 441" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="440" y="222" width="15" height="53" fill="#00FF86"/>
 <line x1="447.5" y1="275" x2="447.5" y2="278" stroke="#00FF86"/>
 <rect x="460" y="195" width="15" height="27" fill="#00FF86"/>
 <line x1="467.5" y1="193" x2="467.5" y2="196" stroke="#00FF86"/>
 <rect x="520" y="143" width="15" height="35" fill="#00FF86"/>
 <line x1="527.5" y1="141" x2="527.5" y2="144" stroke="#00FF86"/>
+<rect x="580" y="109" width="15" height="32" fill="#FF709D"/>
+<line x1="587.5" y1="107" x2="587.5" y2="110" stroke="#FF709D"/>
+<rect x="600" y="141" width="15" height="22" fill="#FF709D"/>
+<line x1="607.5" y1="128" x2="607.5" y2="148" stroke="#FF709D"/>
+<rect width="15" height="19" transform="matrix(1 0 0 -1 720 158)" fill="#FF709D"/>
+<line y1="-0.5" x2="6" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 727 161)" stroke="#FF709D"/>
+<rect width="15" height="50.9545" transform="matrix(1 0 0 -1 859 212.955)" fill="#FF709D"/>
+<line y1="-0.5" x2="16.0909" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 866 221)" stroke="#FF709D"/>
+<rect x="620" y="156" width="15" height="7" fill="#FF709D"/>
+<line x1="627.5" y1="150" x2="627.5" y2="159" stroke="#FF709D"/>
 <rect x="420" y="268" width="15" height="7" fill="#FF709D"/>
 <line x1="427.5" y1="262" x2="427.5" y2="271" stroke="#FF709D"/>
 <rect x="300" y="294" width="15" height="7" fill="#FF709D"/>
@@ -33,6 +43,30 @@
 <line x1="87.5" y1="337" x2="87.5" y2="351" stroke="#00FF86"/>
 <rect x="540" y="132" width="15" height="11" fill="#00FF86"/>
 <line x1="547.5" y1="127" x2="547.5" y2="136" stroke="#00FF86"/>
+<rect x="640" y="152" width="15" height="11" fill="#00FF86"/>
+<line x1="647.5" y1="147" x2="647.5" y2="156" stroke="#00FF86"/>
+<rect x="680" y="141" width="15" height="4" fill="#00FF86"/>
+<line x1="687.5" y1="125" x2="687.5" y2="146" stroke="#00FF86"/>
+<rect x="879" y="215" width="15" height="4" fill="#00FF86"/>
+<line x1="886.5" y1="212" x2="886.5" y2="215" stroke="#00FF86"/>
+<rect x="899" y="215" width="15" height="4" fill="#FF709D"/>
+<line x1="906.5" y1="212" x2="906.5" y2="215" stroke="#FF709D"/>
+<rect x="700" y="142" width="15" height="4" fill="#FF709D"/>
+<line x1="707.5" y1="126" x2="707.5" y2="143" stroke="#FF709D"/>
+<rect x="740" y="158" width="15" height="4" fill="#FF709D"/>
+<line x1="747.5" y1="156" x2="747.5" y2="158" stroke="#FF709D"/>
+<rect x="760" y="156" width="15" height="4" fill="#FF709D"/>
+<line x1="767.5" y1="154" x2="767.5" y2="156" stroke="#FF709D"/>
+<rect x="780" y="156" width="15" height="4" fill="#FF709D"/>
+<line x1="787.5" y1="154" x2="787.5" y2="156" stroke="#FF709D"/>
+<rect x="800" y="156" width="15" height="4" fill="#FF709D"/>
+<line x1="807.5" y1="154" x2="807.5" y2="156" stroke="#FF709D"/>
+<rect x="820" y="157" width="15" height="4" fill="#FF709D"/>
+<line x1="827.5" y1="155" x2="827.5" y2="157" stroke="#FF709D"/>
+<rect x="840" y="158" width="15" height="4" fill="#FF709D"/>
+<line x1="847.5" y1="156" x2="847.5" y2="158" stroke="#FF709D"/>
+<rect x="660" y="145" width="15" height="7" fill="#00FF86"/>
+<line x1="667.5" y1="152" x2="667.5" y2="161" stroke="#00FF86"/>
 <rect x="60" y="351" width="15" height="7" fill="#00FF86"/>
 <line x1="67.5" y1="345" x2="67.5" y2="362" stroke="#00FF86"/>
 <rect x="480" y="168" width="15" height="27" fill="#00FF86"/>
@@ -58,4 +92,5 @@
 <rect x="500" y="178" width="15" height="11" fill="#00FF86"/>
 <line x1="507.5" y1="173" x2="507.5" y2="200" stroke="#00FF86"/>
 <line x1="167.5" y1="2.18557e-08" x2="167.5" y2="441" stroke="white" stroke-opacity="0.7"/>
+<line y1="211.5" x2="930" y2="211.5" stroke="#00FF86" stroke-dasharray="6 6"/>
 </svg>
