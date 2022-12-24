@@ -5,10 +5,10 @@
       <div class="interface__control control">
         <div class="control__inner">
           <div class="control__heading">
-            <div class="control__toggle">
+            <div class="control__toggle manual-toggle selected-toggle">
               Manual
             </div>
-            <div class="control__toggle">
+            <div class="control__toggle auto-toggle">
               AUTO
             </div>
           </div>
@@ -66,6 +66,26 @@
                     </span>
                   </div>
                 </div>
+              </div>
+              <div class="control__grid-item">
+                <input type="range" max="100" class="control__slider">
+                <div class="control__slider-values">
+                  <div class="control__safe">
+                    x1 · <span>
+                      Safe
+                    </span>
+                  </div>
+                  <div class="control__wild">
+                    <span>
+                      Wild
+                    </span> · x10000
+                  </div>
+                </div>
+              </div>
+              <div class="control__grid-item control__grid-item--btn">
+                <button class="control__bet">
+                  Place bet
+                </button>
               </div>
             </div>
             <div class="control__column control__column--auto">

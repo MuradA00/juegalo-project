@@ -12,17 +12,23 @@
     --clr-red-400: hsla(341, 100%, 72%, 1);
     --clr-dark-400: hsla(0, 0%, 0%, 1);
     --table-bg: hsla(240, 11%, 12%, 1);
+    --slider-bg: linear-gradient(90deg, #00FF86 2.09%, #FFA300 52.07%, #FF709D 100%);
+    --clr-orange-400: hsla(38, 100%, 50%, 1);
 }
 
 $container-width: rem(1400);
 $cont-padding: clamp(rem(15), vw(20), rem(20));
 $l-media: 88.75em;
+$media: 81.25em;
 
 .main-container {
   padding: 0 $cont-padding;
   max-width: calc($container-width + $cont-padding);
   margin-inline: auto;
   width: 100%;
+  @include max-width($media) {
+    max-width: calc(50rem + $cont-padding);
+  }
 }
 
 

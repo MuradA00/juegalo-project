@@ -243,7 +243,7 @@
   }
 }
 
-@include max-width(78.125em) {
+@include max-width($media) {
   .table {
     &__m-body {
       display: block;
