@@ -118,7 +118,9 @@
 }
 
 #works {
-
+  p {
+    font-weight: 400;
+  }
 }
 
 #calc {
@@ -280,7 +282,6 @@
   }
   .modal {
     &__container {
-
       overflow-y: auto;
       align-items: flex-start;
     }

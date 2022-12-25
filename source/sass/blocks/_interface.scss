@@ -295,6 +295,11 @@
       min-height: 26.25rem !important;
     }
   }
+  .manual-toggle-selected {
+    .control__inner {
+      padding: 1.5625rem 1.875rem 2.1875rem;
+    }
+  }
   .interface {
     &__container {
       max-width: 50rem;
