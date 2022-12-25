@@ -1,11 +1,255 @@
-<div class="modal" id="works">
+<div class="modal" id="calc">
   <div class="modal__container">
     <div class="modal__body">
+      <div class="modal__close" id="closeCalc">
+        <img src="img/modal/close-icon.svg" alt="close-icon">
+      </div>
       <div class="modal__heading">
         HOW IT WORKS
       </div>
       <div class="modal__subheading">
         Rollbit does not charge fees on opening, closing or losing a bet. Rollbit only takes a fraction of your profit when you win. The bigger the price move, the smaller the fraction.
+      </div>
+      <div class="modal__inner">
+        <div class="modal__input">
+          <div class="modal__input-item">
+            <span>
+              ENTRY PRICE
+            </span>
+            <div class="modal__dropdown">
+              <img src="img/footer/btc-icon.png" alt="btc-icon">
+              <img src="img/sprite/arrow-bold.svg" alt="arrow-bold">
+            </div>
+          </div>
+
+          <div class="control__grid-item">
+            <div class="control__grid-name">
+              WILL THE PRICE GO UP OR DOWN?
+            </div>
+            <div class="control__grid-inner control__grid-inner--btn-row">
+              <button class="control__btn control__btn--up">
+                <img src="img/table/green-arrow-increase.svg" alt="green-arrow">
+                UP
+              </button>
+              <button class="control__btn control__btn--down">
+                DOWN
+                <img src="img/interface/red-arrow.svg" alt="red-arrow">
+              </button>
+            </div>
+          </div>
+          <div class="control__grid-item">
+            <div class="control__grid-name">
+              Wager
+            </div>
+            <div class="control__grid-inner control__grid-inner--wager">
+              <img src="img/header/coin-icon.png" alt="coin-icon">
+              <span>
+                $ 10.00
+              </span>
+            </div>
+          </div>
+          <div class="control__grid-item">
+            <div class="control__grid-name">
+              PAYOUT MULTIPLIER
+            </div>
+            <div class="control__grid-inner">
+              <div class="control__multiplier">
+                <span>x</span>
+                1
+              </div>
+            </div>
+          </div>
+          <div class="control__grid-item">
+            <div class="control__grid-name">
+              CUSTOM PRICE MOVE %
+            </div>
+            <div class="control__grid-inner">
+              <input  type="text">
+            </div>
+          </div>
+          <div class="control__grid-item control__grid-item--btn">
+            <button class="control__bet">
+              Reset fields
+            </button>
+          </div>
+        </div>
+        <div class="modal__output">
+          <div class="modal__output-heading">
+            <div class="modal__output-heading-item">
+              PRICE MOVE
+            </div>
+            <div class="modal__output-heading-item">
+              ROI
+            </div>
+            <div class="modal__output-heading-item">
+              EXIT PRICE
+            </div>
+            <div class="modal__output-heading-item">
+              P&L
+            </div>
+          </div>
+          <div class="modal__output-table">
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -100%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -100%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -$400
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -50%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -50%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -$200
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -10%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -10%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -$20
+              </div>
+             </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -5%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -5%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -$10
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -1%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -1%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--red">
+                -$1
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item">
+                0%
+              </div>
+              <div class="modal__output-table-item">
+                0.00%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item ">
+                $0
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.05%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.01%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                $0.5
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.1%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.5%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                $1
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--green">
+                1%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.8%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                $0.5
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--green">
+                5%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.5%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                $2,5
+              </div>
+            </div>
+            <div class="modal__output-table-row">
+              <div class="modal__output-table-item modal__output-table-item--green">
+                15%
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                0.01%
+              </div>
+              <div class="modal__output-table-item">
+                1,248.869
+              </div>
+              <div class="modal__output-table-item modal__output-table-item--green">
+                $10
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__notif">
+        <p>
+          *Calculator outcomes are estimates and actual ROI/P&L can differ to what's shown based on market conditions.
+        </p>
       </div>
     </div>
   </div>

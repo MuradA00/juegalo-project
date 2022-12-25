@@ -6,12 +6,37 @@ const main = document.querySelector('main'),
       burger = document.querySelector('.header__burger'),
       menu = document.querySelector('.menu'),
       closeMenuIcon = document.querySelector('.menu__close'),
-      body = document.body;
+      body = document.body,
+      worksModalTrigger = document.querySelectorAll('.works-trigger'),
+      calcModalTrigger = document.querySelectorAll('.calc-trigger'),
+      worksModal = document.getElementById('works'),
+      calcModal = document.getElementById('calc'),
+      worksClose = document.getElementById('closeWorks'),
+      calcClose = document.getElementById('closeCalc')
 
 function setSpacing() {
   const headersHeight = header.clientHeight;
   main.style.marginTop = `${headersHeight}px`;
 }
+
+function openModal(modal, closeModal) {
+  modal.classList.add('show-modal'),
+  closeModal.addEventListener('click', () => {
+    modal.classList.remove('show-modal');
+  })
+}
+
+worksModalTrigger.forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    openModal(worksModal, worksClose);
+  })
+})
+
+calcModalTrigger.forEach(calcTrigger => {
+  calcTrigger.addEventListener('click', () => {
+    openModal(calcModal, calcClose)
+  })
+})
 
 function closeMenu() {
   menu.classList.remove('show-menu');
