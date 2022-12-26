@@ -114,10 +114,17 @@
       color: var(--clr-red-400);
     }
   }
+  &__arrow-icon {
+    transition: 400ms ease;
+  }
   &__dropdown {
     display: flex;
     align-items: center;
     grid-gap: rem(10.5);
+    position: relative;
+    &:hover .graph__arrow-icon{
+      transform: scaleY(-1);
+    }
   }
   &__currency {
     font-size: clamp(rem(26), vw(30), rem(30));
@@ -132,6 +139,7 @@
     border-radius: 8px;
     display: grid;
     place-items: center;
+    position: relative;
   }
   &__point {
     display: flex;
@@ -152,7 +160,7 @@
     font-weight: 600;
     line-height: 1.5;
     left: 0;
-    z-index: 1000;
+    z-index: 50;
     position: relative;
     &::before {
       @include psevdo;
@@ -172,6 +180,86 @@
     &--arrow {
       max-width: rem(17.42);
       max-height: rem(22);
+    }
+  }
+}
+
+.hidden-drop {
+  position: absolute;
+  background-color: hsla(240, 11%, 12%, 1);
+  border-radius: 12px;
+  top: 100%;
+  z-index: 100;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 400ms ease;
+  visibility: hidden;
+  pointer-events: none;
+  &__inner {
+    padding: rem(20);
+  }
+  &__all {
+    background-color: hsla(0, 0%, 0%, 0.3);
+    border-radius: 12px;
+    padding: rem(9.5) rem(31);
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--clr-orange-400);
+    font-size: rem(14);
+    font-weight: 600;
+    margin-bottom: rem(21);
+  }
+  &__search {
+    padding: rem(12) rem(15);
+    outline: 1px solid hsla(0, 0%, 100%, 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    grid-gap: rem(6);
+    margin-bottom: rem(15);
+    img {
+      max-width: rem(16);
+    }
+    input {
+      background-color: transparent;
+      color: var(--clr-light-400);
+      font-size: rem(14);
+      font-weight: 400;
+      &::placeholder {
+        font-size: inherit;
+        color: hsla(0, 0%, 100%, 0.7);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.show-hidden-dropdown {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.hidden-list {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  &__icon {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    span {
+      color: var(--clr-light-400);
+      font-weight: normal;
+      font-weight: 700;
+    }
+    img {
+      max-width: rem(26);
+      max-height: rem(26);
     }
   }
 }

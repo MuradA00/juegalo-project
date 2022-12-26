@@ -137,10 +137,11 @@
       flex-wrap: wrap;
       grid-gap: rem(32) rem(50);
       justify-content: center;
+      justify-content: flex-start;
     }
     &__top {
       .footer__column {
-        flex: 0 1 33%;
+        flex: 0 1 45%;
         &:last-child {
           flex: 0 1 auto;
         }

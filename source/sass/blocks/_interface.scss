@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: space-between;
   }
-
 }
 
 .control {
@@ -295,14 +294,16 @@
       min-height: 26.25rem !important;
     }
   }
+
   .manual-toggle-selected {
     .control__inner {
       padding: 1.5rem;
     }
   }
   .interface {
+    margin-bottom: 3rem;
     &__container {
-      max-width: 50rem;
+
       margin-inline: auto;
     }
     &__body {
@@ -325,7 +326,21 @@
     }
   }
   .control {
+    &__heading {
+      justify-content: center;
+    }
+    &__column {
+      &--manual {
+        max-width: rem(700);
+        margin-inline: auto;
+        width: 100%;
+      }
+    }
     max-width: 100%;
+    &__grid-item {
+      margin-inline: auto;
+      width: 100%;
+    }
   }
 }
 

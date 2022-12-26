@@ -12,12 +12,20 @@ const main = document.querySelector('main'),
       worksModal = document.getElementById('works'),
       calcModal = document.getElementById('calc'),
       worksClose = document.getElementById('closeWorks'),
-      calcClose = document.getElementById('closeCalc')
+      calcClose = document.getElementById('closeCalc'),
+      interfaceDropdown = document.querySelector('.graph__arrow'),
+      hiddenDropdown = document.querySelector('.hidden-drop')
 
 function setSpacing() {
   const headersHeight = header.clientHeight;
   main.style.marginTop = `${headersHeight}px`;
 }
+
+function showHiddenDropdown() {
+  hiddenDropdown.classList.toggle('show-hidden-dropdown');
+}
+
+interfaceDropdown.addEventListener('click', showHiddenDropdown)
 
 function openModal(modal, closeModal) {
   modal.classList.add('show-modal'),

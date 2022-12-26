@@ -215,7 +215,13 @@
 }
 
 @include max-width($l-media) {
+  .control {
+    &__inner {
+      padding: 1.5rem;
+    }
+  }
   .table {
+
     &__body {
       padding: 1.9375rem 1.275rem 1.5rem;
     }

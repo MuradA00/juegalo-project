@@ -46,6 +46,12 @@ html {
 
 main {
   flex: 1 1 auto;
+  button {
+    transition: 400ms ease;
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
 }
 
 
